@@ -6,7 +6,7 @@ import { StatusPill } from "../components/StatusPill";
 import { LogPanel } from "../components/LogPanel";
 import { LangBar, Lang, LANGS } from "../components/LangBar";
 
-const WS_URL = "ws://localhost:8080";
+const WS_URL = "wss://chatapp-qj2o.onrender.com";
 
 function btnStyle(bg: string, color: string, disabled = false): React.CSSProperties {
   return {
